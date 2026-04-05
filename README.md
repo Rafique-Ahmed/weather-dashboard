@@ -1,46 +1,98 @@
-# Getting Started with Create React App
+# 🌤️ Weather Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.0-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-10.0-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+![OpenWeatherMap](https://img.shields.io/badge/OpenWeatherMap-API-FF6B6B?style=for-the-badge&logo=openweathermap&logoColor=white)
 
-In the project directory, you can run:
+[![GitHub stars](https://img.shields.io/github/stars/yourusername/weather-dashboard?style=social)](https://github.com/yourusername/weather-dashboard)
+[![GitHub forks](https://img.shields.io/github/forks/yourusername/weather-dashboard?style=social)](https://github.com/yourusername/weather-dashboard)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-### `npm start`
+**A modern, production-ready weather dashboard with real-time data, beautiful animations, and intelligent search**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[Live Demo](https://yourusername.github.io/weather-dashboard) • [Report Bug](https://github.com/yourusername/weather-dashboard/issues) • [Request Feature](https://github.com/yourusername/weather-dashboard/issues)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+</div>
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📸 Screenshots
 
-### `npm run build`
+<div align="center">
+  <img src="https://via.placeholder.com/800x400?text=Weather+Dashboard+Demo" alt="Weather Dashboard Screenshot" width="800"/>
+  <br/>
+  <em>Main dashboard showing current weather and 5-day forecast</em>
+</div>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ✨ Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Core Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 🔍 **Smart City Search** - Real-time autocomplete with debounced API calls
+- 🌡️ **Current Weather** - Temperature, feels like, humidity, wind speed, pressure
+- 📅 **5-Day Forecast** - Daily weather predictions with icons and details
+- 💾 **Recent Searches** - Persists last 5 searched cities in localStorage
+- 🎨 **Beautiful UI** - Gradient backgrounds with glass morphism effects
+- 📱 **Fully Responsive** - Works perfectly on desktop, tablet, and mobile
 
-### `npm run eject`
+### Advanced Features
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- ⌨️ **Keyboard Navigation** - Navigate suggestions with arrow keys
+- ⚡ **Parallel API Calls** - Optimized performance with Promise.all
+- 🎭 **Smooth Animations** - Framer Motion powered transitions and hover effects
+- 🛡️ **Type Safety** - Full TypeScript implementation
+- 🚦 **Loading States** - Visual feedback during API calls
+- ❌ **Error Handling** - User-friendly error messages with retry options
+- 🎯 **Popular Cities** - Quick access to major world cities
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Developer Features
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- 📦 **ESLint + Prettier** - Consistent code style and quality
+- 🐛 **Git Hooks** - Pre-commit linting with Husky
+- 🔄 **CI/CD Ready** - GitHub Actions workflow included
+- 📝 **Comprehensive Documentation** - Easy to understand and extend
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 🚀 Tech Stack
 
-## Learn More
+### Frontend
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+| Technology    | Version | Purpose      |
+| ------------- | ------- | ------------ |
+| React         | 19.2.4  | UI Framework |
+| TypeScript    | 4.9.5   | Type Safety  |
+| Tailwind CSS  | 3.4.17  | Styling      |
+| Framer Motion | 10.16.4 | Animations   |
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Development Tools
+
+| Tool        | Purpose             |
+| ----------- | ------------------- |
+| ESLint      | Code linting        |
+| Prettier    | Code formatting     |
+| Husky       | Git hooks           |
+| lint-staged | Staged file linting |
+
+### API
+
+- **OpenWeatherMap** - Weather data provider
+  - Current Weather API
+  - 5-Day Forecast API
+  - Geocoding API (for autocomplete)
+
+## 📦 Installation
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn package manager
+
+### Step 1: Clone the repository
+
+```bash
+git clone https://github.com/yourusername/weather-dashboard.git
+cd weather-dashboard
+```
