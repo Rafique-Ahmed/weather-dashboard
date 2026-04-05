@@ -1,0 +1,67 @@
+# <type>(<scope>): <subject>
+
+# |<----- 50 chars max ----->|
+
+#
+
+# <body>
+
+# |<----- 72 chars max ----->|
+
+#
+
+# <footer>
+
+# ---
+
+# Types:
+
+# feat: A new feature
+
+# fix: A bug fix
+
+# docs: Documentation changes
+
+# style: Code style changes (formatting, missing semi colons, etc)
+
+# refactor: Code refactoring
+
+# perf: Performance improvements
+
+# test: Adding tests
+
+# chore: Maintenance tasks
+
+# ci: CI/CD changes
+
+# build: Build system changes
+
+# ---
+
+# Scope can be:
+
+# - component: Specific component name
+
+# - api: API integration
+
+# - styles: CSS/styling
+
+# - config: Configuration files
+
+# - deps: Dependencies
+
+# ---
+
+# Example:
+
+# feat(search): add autocomplete functionality
+
+#
+
+# Implement city suggestions with debounced API calls
+
+# Add keyboard navigation for search results
+
+#
+
+# Closes #123
