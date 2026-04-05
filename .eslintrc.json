@@ -41,24 +41,17 @@
     }
   },
   "rules": {
-    // Prettier rules
-    "prettier/prettier": ["error", {}, { "usePrettierrc": true }],
-    
-    // React rules
+    "prettier/prettier": "error",
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
     "react/jsx-uses-react": "off",
     "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".jsx"] }],
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    
-    // TypeScript rules
     "@typescript-eslint/no-explicit-any": "warn",
     "@typescript-eslint/no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }],
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/no-non-null-assertion": "warn",
-    
-    // Unused imports
     "unused-imports/no-unused-imports": "error",
     "unused-imports/no-unused-vars": [
       "warn",
@@ -69,8 +62,6 @@
         "argsIgnorePattern": "^_"
       }
     ],
-    
-    // Import rules
     "import/order": [
       "error",
       {
@@ -88,8 +79,6 @@
         "alphabetize": { "order": "asc", "caseInsensitive": true }
       }
     ],
-    
-    // General rules
     "no-console": ["warn", { "allow": ["warn", "error"] }],
     "eqeqeq": ["error", "always"],
     "curly": ["error", "all"]
