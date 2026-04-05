@@ -22,13 +22,7 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": [
-    "react",
-    "react-hooks",
-    "@typescript-eslint",
-    "prettier",
-    "unused-imports"
-  ],
+  "plugins": ["react", "react-hooks", "@typescript-eslint", "prettier", "unused-imports"],
   "settings": {
     "react": {
       "version": "detect"
